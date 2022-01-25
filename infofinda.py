@@ -1,9 +1,6 @@
 import requests
 import time
 
-
-username = input("\033[92m{+} Enter username to DOX: ")
-
 def outer_func(color):
     def inner_function(msg):
         print(f"{color}{msg}")
@@ -15,6 +12,8 @@ GREEN  = outer_func("\033[92m")
 YELLOW = outer_func("\033[93m")
 RED    = outer_func("\033[91m")
 
+
+username = input("\033[92m/+/ Enter username to search from: ")
 
 
 # Links 
