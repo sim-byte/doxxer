@@ -1,10 +1,45 @@
-<h>
+# User-name searcher made in Python
 
-This is a username searcher made in Python, 
+#(Application version 1.2)
+## Features
 
-[X]
-Application is currently in version 1.2 while the first two versions were private I've decided to release the project, 
-this will most likely be updated in the future if I have time to make revisions 
-[X]
-  
-<h> 
+- Multiple platforms to search from
+- User friendly UI
+- Easy to make custom revisions 
+- Cross platform
+
+
+## Optimizations
+
+Since the last unreleased update there have been much more search querys added to the 
+software including 
+
+- Github
+
+- Pastebin
+
+- Steam
+
+- Tumblr
+
+to name a few.
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/sim-byte/doxxer
+```
+
+Go to the project directory
+
+```bash
+  cd primary12.py
+```
+
+Install dependencies
+
+```bash
+  pip install requests 
+  pip install time
+```
